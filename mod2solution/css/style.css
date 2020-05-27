@@ -12,7 +12,7 @@ h1{
 }
 
 .whole{
-	padding: 5px;
+	padding: 0px;
 }
 
 .content{
@@ -21,8 +21,8 @@ h1{
 	padding: : 8px;
 	border: 1px solid black;
 	float: left;
-	margin: 5px;
-	padding: 0px;
+	margin: 0px;
+	padding-left: 5px;
 	clear: right;
 }
 
@@ -37,8 +37,21 @@ p{
 
 }
 
-.whole{
-	margin: 5px;
+#p1{
+	padding:0px;
+	margin:0px;	
+	background-color: #e186ba;
+}
+#p2{
+	padding:0px;	
+	margin:0px;	
+	background-color: #d04553;
+    color: white;
+}
+#p3{
+	margin:0px;	
+	padding:0px;
+	background-color: #F1D86B;
 }
 
 @media (min-width: 992px) {
