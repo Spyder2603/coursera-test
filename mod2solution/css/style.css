@@ -1,14 +1,9 @@
-h1{
+#ourpage{
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: cursive;
-}
-
-*{
-	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
+	font-size: 1.75em;
 }
 
 .whole{
@@ -18,63 +13,66 @@ h1{
 .content{
 	font-family: cursive;
 	background-color: #c6c3c5;
-	padding: : 8px;
 	border: 1px solid black;
 	float: left;
-	margin: 0px;
-	padding-left: 5px;
-	clear: right;
+	margin: 5px;
 }
 
+.lorem{
+	clear:right;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+
+}
 p{
 	width: 20%;
 	height: 25px;
 	float: right;
-	border-left:1px solid black;
-	border-bottom : 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
 	text-align: center;
+	font-size: 1.25em;
 	justify-content: center;
+	margin:0px;
+	padding:0px;
 
 }
 
 #p1{
-	padding:0px;
-	margin:0px;	
 	background-color: #e186ba;
 }
 #p2{
-	padding:0px;	
-	margin:0px;	
 	background-color: #d04553;
     color: white;
 }
 #p3{
-	margin:0px;	
-	padding:0px;
-	background-color: #F1D86B;
+	background-color: #f1d86b;
 }
 
 @media (min-width: 992px) {
 	.col-lg-4 {
-    	width: 33%;
+    	width: 32%;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
   .col-md-6 {
-    width: 50%;
+    width: 48.2%;
   }
 
   .col-md-12 {
-    width: 100%;
+    width: 98%;
   }
 }
 
 @media (max-width: 767px) {
 
 .col-sm-12{
-    width: 100%;
+    width: 98%;
 }
 
 
